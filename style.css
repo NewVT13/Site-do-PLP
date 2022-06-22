@@ -1,0 +1,102 @@
+@font-face{
+	font-family:'OE' ;
+	src: url('OldeEnglish.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+title {
+	/*	Como marcar a tag title?*/
+}
+header {
+	background: #ae841a;
+}
+.caixa {
+	width: 940px;
+	position: relative;
+	margin: 0 auto;
+}
+.logo-principal {
+	display: inline-block;
+	width: 200px;	
+}
+.titulo-principal {
+	position: absolute;
+	top:  12px;
+	left: 287px;
+	text-indent: 13px;
+	font-family:'Cinzel', serif ;
+	font-size: 55px;
+	color:  #ffffff;
+}
+.caixa p {
+	position: absolute;
+	top:  80px;
+	left: 220px;
+	text-indent: 13px;
+	font-family: 'Cinzel', serif ;
+	font-size: 39px;
+	color:  #ffffff;
+}
+main {
+	background: black;
+}
+main > h2{
+	background: linear-gradient(#ae841a 30%, #000000);
+}
+main p {
+	font-family: 'Quicksand', sans-serif;
+	color: #ffffff;
+	font-size: 15px;
+	line-height: 20px;
+	padding: 0 2%;
+	text-indent: 8%;
+}
+.titulo-secundario {
+	text-align: center;
+	font-family:'Stoke', serif ;
+    font-size: 30;
+    padding: 10%;
+    color: #ffffff;
+}
+.video {
+	width: 560px;
+	margin: 2em auto;
+}	
+.titulo-assinatura {
+	font-family: 'Dancing Script', cursive;
+	text-align: center;
+	color: #ffffff;
+	margin: 20px;
+	font-size: 25px;
+}
+.mapa {
+	width: 560px;
+	margin: auto;
+	padding: 0 0 10% 0;
+}
+
+footer {
+	color: white;
+	background: linear-gradient(#000000, #ae841a);
+}
+.copyright {
+	display: inline-block;
+
+}
+ {
+
+}
+
+
+
+
+/*
+Fontes que podem ser usadas.
+font-family: 'Cinzel', serif; - nome
+font-family: 'Quicksand', sans-serif; -texto com paragrafo
+font-family: 'Dancing Script', cursive; - assinatura
+font-family: 'Stoke', serif; - Titulos
+
+<p>Telfone: (47) xxxxx-xxxx</p>
+			<p ><a href="</a></p>
+*/
